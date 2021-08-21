@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: khaki;
+}
+
+
+/********** Main Box ***********/
+
+.main {
+    background-color: black;
+    height: 85vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 13%;
+    border-radius: 20px;
+    box-shadow: 20px 19px 6px grey;
+}
+
+.top img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: 13%;
+    border: 2px dotted gray;
+    cursor: pointer;
+}
+
+.main hr {
+    box-shadow: 0px 7px 7px red;
+}
+
+.fb img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.fb h3 {
+    margin-top: 9%;
+    margin-left: 9%;
+}
+
+.colom {
+    height: 58vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    cursor: all-scroll;
+}
+
+.display {
+    display: flex;
+}
+
+
+/********************** Text glow ************************/
+
+.glowF {
+    color: #fff;
+    font-family: cursive;
+    animation: glowF 1s ease-in-out infinite alternate;
+}
+
+@keyframes glowF {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #003de6, 0 0 40px #0905cf, 0 0 50px #4904b8, 0 0 60px #2300e6, 0 0 70px #3d00e6;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #7c4dff, 0 0 40px #8b4dff, 0 0 50px #5f4dff, 0 0 60px #7c4dff, 0 0 70px #4d8bff, 0 0 80px #4d77ff;
+    }
+}
+
+.glowI {
+    color: #fff;
+    font-family: cursive;
+    animation: glowI 1s ease-in-out infinite alternate;
+}
+
+@keyframes glowI {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e600b4, 0 0 40px #be05cf, 0 0 50px #b804a0, 0 0 60px #e600d3, 0 0 70px #e600b4;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #d54dff, 0 0 40px #ff4df0, 0 0 50px #ff4de1, 0 0 60px #ff4dbb, 0 0 70px #f04dff, 0 0 80px #ff4df6;
+    }
+}
+
+.glowG {
+    color: #fff;
+    font-family: cursive;
+    animation: glowG 1s ease-in-out infinite alternate;
+}
+
+@keyframes glowG {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #222122, 0 0 40px #0d0c0e, 0 0 50px #131213, 0 0 60px #201d20, 0 0 70px #251f24;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #d1cad3, 0 0 40px #dbcdda, 0 0 50px #d1c7cf, 0 0 60px #ddd2d9, 0 0 70px #e3d6e4, 0 0 80px #a39da3;
+    }
+}
+
+.glowT {
+    color: #fff;
+    font-family: cursive;
+    animation: glowT 1s ease-in-out infinite alternate;
+}
+
+@keyframes glowT {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00dee6, 0 0 40px #05c2cf, 0 0 50px #04acb8, 0 0 60px #00cbe6, 0 0 70px #00d7e6;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #4df3ff, 0 0 40px #68d1fa, 0 0 50px #92e6fc, 0 0 60px #99ecf1, 0 0 70px #a9faf6, 0 0 80px #8fe6fc;
+    }
+}
+
+.glowW {
+    color: #fff;
+    font-family: cursive;
+    animation: glowW 1s ease-in-out infinite alternate;
+}
+
+@keyframes glowW {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e632, 0 0 40px #16cf05, 0 0 50px #04b85e, 0 0 60px #00e658, 0 0 70px #13e600;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #4dff6b, 0 0 40px #4dff91, 0 0 50px #4dff74, 0 0 60px #4dff82, 0 0 70px #4dffa6, 0 0 80px #4dffac;
+    }
+}
+
+.glowL {
+    color: #fff;
+    font-family: cursive;
+    animation: glowL 1s ease-in-out infinite alternate;
+}
+
+@keyframes glowL {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #5100e6, 0 0 40px #2a05cf, 0 0 50px #2504b8, 0 0 60px #2300e6, 0 0 70px #2a00e6;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #5f4dff, 0 0 40px #684dff, 0 0 50px #5f4dff, 0 0 60px #504dff, 0 0 70px #6e4dff, 0 0 80px #5f4dff;
+    }
+}
